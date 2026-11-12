@@ -1,0 +1,27 @@
+# Private runtime data and local configuration
+data/*
+!data/.htaccess
+!data/index.html
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.sql
+*.dump
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+*.log
+*.zip
+.idea/
+.DS_Store
+node_modules/
+__pycache__/
